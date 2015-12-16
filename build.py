@@ -14,6 +14,7 @@ def main(chapters=[], epub=False, pdf=False, html=False, mobi=False, pandoc_epub
             run('rm {}'.format(f))
 
     chapter_dirs = [
+        'image-filters',
         'ocr',
         'contingent',
         'same-origin-policy',
@@ -68,6 +69,7 @@ def main(chapters=[], epub=False, pdf=False, html=False, mobi=False, pandoc_epub
     ]
 
     image_paths = [
+        './image-filters/image-filters-images',
         './ocr/ocr-images',
         './contingent/contingent-images',
         './same-origin-policy/same-origin-policy-images',
