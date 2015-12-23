@@ -98,7 +98,7 @@ Each ballot has a unique ballot number based on an integer and the proposer's id
 The proposer's goal is to get a majority of cluster members, acting as acceptors, to accept its value, but only if another value has not already been decided.
 
 
-\aosafigure{cluster-images/ballot.png}{A Ballot}{500l.cluster.ballot}
+[aosafigure](cluster-images/ballot.png){A Ballot}{500l.cluster.ballot}
 
 A ballot begins with the proposer sending a ``Prepare`` message with the ballot number *N* to the acceptors and waiting to hear from a majority (\aosafigref{500l.cluster.ballot}.)
 
